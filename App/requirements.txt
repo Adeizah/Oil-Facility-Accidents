@@ -1,8 +1,7 @@
-os
 numpy
 pandas
 scikit-learn
 category_encoders
-pickle
 streamlit
-datetime
+scipy==1.10.1
+statsmodels==0.13.5
