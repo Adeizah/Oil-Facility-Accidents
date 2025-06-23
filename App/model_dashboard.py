@@ -64,7 +64,7 @@ with open(model_path, 'rb') as f:
 _, center, right = st.columns([1,3,1])
 with center:
     image_path = os.path.join(this_dir, "sv_model.png")
-    st.image(image_path, caption="Here is a visualization of the model", use_column_width=True)
+    st.image(image_path, caption="Here is a visualization of the model", use_container_width=True)
 with right:
     st.subheader("")
     st.subheader("")
