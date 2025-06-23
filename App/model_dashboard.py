@@ -67,8 +67,6 @@ with center:
     st.image(image_path, caption="Here is a visualization of the model", use_container_width=True)
 with right:
     st.subheader("")
-    st.subheader("")
-    st.subheader("")
     st.subheader("This model's accuracy:")
     st.write("Model Mean Absolute Error: 15.78%")
     st.write("Model Median Absolute Error: 1.33%")
@@ -84,7 +82,7 @@ left, right = st.columns([3,1])
 with left:
     st.subheader("Impute the features for the test you want to predict into the form below: ")
     with st.form("Test features:"):
-        st.subheader("Please input the required dates and times below:")
+        st.markdown("### **Please input the required dates and times below:**")
         col_1, col_2, col_3, col_4 = st.columns(4)
         with col_1:
             local_date = st.date_input("Incident date")
