@@ -3,3 +3,5 @@ pandas
 scikit-learn
 category_encoders
 streamlit
+scipy==1.10.1
+statsmodels==0.13.5
