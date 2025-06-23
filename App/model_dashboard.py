@@ -82,7 +82,7 @@ left, right = st.columns([3,1])
 with left:
     st.subheader("Impute the features for the test you want to predict into the form below: ")
     with st.form("Test features:"):
-        st.markdown("### **Please input the required dates and times below:**")
+        st.markdown("#### **Please input the required dates and times below:**")
         col_1, col_2, col_3, col_4 = st.columns(4)
         with col_1:
             local_date = st.date_input("Incident date")
