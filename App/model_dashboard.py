@@ -104,7 +104,7 @@ with left:
             restart_time = st.time_input("Facility restart time")
             restart_datetime = datetime.combine(restart_date, restart_time)
 
-        st.subheader("Please input the other required features below (location, details, impact):")
+        st.markdown("#### **Please input the other required features below (location, details, impact):**")
         col_5, col_6, col_7 = st.columns(3)
         with col_5:
             state = st.selectbox("State", df['onshore_state_abbreviation'].unique())
