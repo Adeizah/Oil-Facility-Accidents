@@ -38,7 +38,7 @@ I built an interactive dashboard in Power BI to visualize:
 - Costs by location, cause, and facility  
 - Spill details, injuries, fatalities, and more  
 
-📷 Here are the three main pages from the interactive Power BI dashboard I built for the project:
+📷 Here are the three pages from the interactive Power BI dashboard I built for the project:
 
 ### 🔍 Incident Occurence Page
 ![Incident Overview](/Power-BI-dashboard/images/First_page_pic.jpg)
